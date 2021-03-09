@@ -9,6 +9,7 @@ class Persona {
             return(nombre);
         };*/
         string getDatos() {return (nombre);};
+        TPunto operator=(const Persona* p){Persona(p->nombre);}
     
     private:
         string nombre;
